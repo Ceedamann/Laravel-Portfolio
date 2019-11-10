@@ -1,99 +1,60 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="No page can go online without having an eye catching cover to keep your visitors in the page.">
+    <meta name="keywords" content="cover, header, block, html code">
 
-        <title>Laravel</title>
+    <title>TheSaaS — Covers</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <!-- Styles -->
+    <link href="{{asset('css/page.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
 
-            .full-height {
-                height: 100vh;
-            }
+  <body class="demo-header">
+     <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header text-white h-fullscreen text-center text-lg-left pb-8" style="background-image: url(../assets/img/bg/5.jpg);" data-overlay="8">
+        <div class="container">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+          <div class="row h-100">
+            <div class="col-lg-8 mx-auto align-self-center">
 
-            .position-ref {
-                position: relative;
-            }
+              <h1 class="display-3 fw-500">Carl Robinson Jr.</h1>
+              <p class="lead-2 text-white mt-6 mb-8"><span class="fw-400">TheSaaS</span> is a responsive, professional, and multipurpose<br> SaaS template powered with <span class="mark-underline">Bootstrap 4</span>.</p>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+              
             </div>
+
+            <div class="col-12 align-self-end text-center mt-6">
+              <a class="scroll-down-1 scroll-down-white" href="#section-next"><span></span></a>
+            </div>
+
+          </div>
+
         </div>
-    </body>
+      </header>
+      <!-- END Header -->
+
+
+
+
+
+    </main><!-- /.main-content -->
+
+
+
+
+    <!-- Scripts -->
+    <script src="{{asset('js/page.min.js')}}"></script>
+    <script src="{{asset('js/script.js')}}"></script>>
+
+  </body>
 </html>
