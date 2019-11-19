@@ -51,7 +51,7 @@
             </div>
 
             <div class="col-md-5 mx-auto text-center mt-8 mt-md-0">
-              <img src="url(/img/DSC_0903.jpg)" alt="..." data-aos="fade-up" style = 'border-radius: 50%'>
+              <img src="{{url('/img/DSC_0903.jpg')}}" alt="..." data-aos="fade-up" style = 'border-radius: 50%'>
             </div>
 
           </div>
@@ -69,7 +69,7 @@
 
             <div class="col-md-6">
               <a class="card p-5 shadow-3 hover-shadow-6 text-default" href="http://urbanconnection.herokuapp.com/" target='_blank'>
-                <img src="/img/uc.png" alt="">
+                <img src="{{url('/img/uc.png')}}" alt="">
                 <h5 class="fw-500 my-4">Urban Connection</h5>
                 <p class="mb-0">A social networking app for urban communities to connect with urban business. Users would be able to leave a post about their favorite locations.</p>
               </a>
