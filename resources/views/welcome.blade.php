@@ -69,7 +69,7 @@
 
             <div class="col-md-6">
               <a class="card p-5 shadow-3 hover-shadow-6 text-default" href="http://urbanconnection.herokuapp.com/" target='_blank'>
-                <img src="{{url('/img/uc.png')}}" alt="">
+                <img src="https://i.postimg.cc/X7VsCPcX/UC.png" alt="">
                 <h5 class="fw-500 my-4">Urban Connection</h5>
                 <p class="mb-0">A social networking app for urban communities to connect with urban business. Users would be able to leave a post about their favorite locations.</p>
               </a>
@@ -77,7 +77,7 @@
 
             <div class="col-md-6">
               <a class="card p-5 shadow-3 hover-shadow-6 text-default" href="https://dbworld.herokuapp.com/" target='_blank'>
-                <img src="/img/gamerz.png" alt="">
+                <img src="https://i.postimg.cc/pr15yyJf/gamerz.png" alt="">
                 <h5 class="fw-500 my-4">gAmerZ Index</h5>
                 <p class="mb-0">Game sharing app you can add video games you own to your library and choose to trade or share games among other people. Using MySQL with sequelize I created a games table with an imported list of information on 16,000 games.</p>
               </a>
@@ -85,7 +85,7 @@
 
             <div class="col-md-6">
               <a class="card p-5 shadow-3 hover-shadow-6 text-default" href="https://secure-lowlands-42403.herokuapp.com/" target='_blank'>
-                  <img src="/img/slickdeals.png" alt="">
+                  <img src="https://i.postimg.cc/CKFMTSjS/slickdeals.png" alt="">
                 <h5 class="fw-500 my-4">Cee Slickdeals</h5>
                 <p class="mb-0">Using Slickdeals site. I scrape their site and created my own. User is able to scrape current deals and leave comment on deals.</p>
               </a>
@@ -93,7 +93,7 @@
 
             <div class="col-md-6">
               <a class="card p-5 shadow-3 hover-shadow-6 text-default" href="https://mateusandre1.github.io/My-Vacation-Optimizer/" target='_blank'>
-              <img src="/img/MVC.png" alt="">
+              <img src="https://i.postimg.cc/VsbJFsgV/MVC.png" alt="">
                 <h5 class="fw-500 my-4">My Vacation Optimizer</h5>
                 <p class="mb-0">With My Vacation Optimizer you will be able to first (and most importantly) find out if the weather will be to your liking. From there you can take a small tour through a video of the location, or call one of the local tour guides for questions. Finally you can plan out the entire vacation right on our app!</p>
               </a>
