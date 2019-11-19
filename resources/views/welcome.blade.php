@@ -51,7 +51,7 @@
             </div>
 
             <div class="col-md-5 mx-auto text-center mt-8 mt-md-0">
-              <img src="{{url('public/img/DSC_0903.jpg')}}" alt="..." data-aos="fade-up" style = 'border-radius: 50%'>
+              <img src="https://postimg.cc/3dmSrsmT" alt="..." data-aos="fade-up" style = 'border-radius: 50%'>
             </div>
 
           </div>
