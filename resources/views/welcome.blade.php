@@ -71,7 +71,7 @@
               <a class="card p-5 shadow-3 hover-shadow-6 text-default" href="http://urbanconnection.herokuapp.com/" target='_blank'>
                 <img src="https://i.postimg.cc/X7VsCPcX/UC.png" alt="">
                 <h5 class="fw-500 my-4">Urban Connection</h5>
-                <p class="mb-0">A social networking app for urban communities to connect with urban business. Users would be able to leave a post about their favorite locations.</p>
+                <p class="mb-0">A social networking app for urban communities to connect with urban business. Users would be able to leave a post about their favorite locations.I created a full CMS which allows you to control and manage the content within the web site</p>
               </a>
             </div>
 
